@@ -5,7 +5,7 @@ the open-source reference code remains available and is not put
 behind a paywall.
 
 To compile and install, make sure you have the zlib development libraries
-installed (e.g. in CentOS6 `yum -y install zlib-install` as root), then
+installed (e.g. in CentOS6 `yum -y install zlib-devel` as root), then
 
     git clone https://github.com/samboy/WOFF
     cd WOFF
