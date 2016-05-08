@@ -1,5 +1,11 @@
 # WOFF
 
+WOFF is a compressed format for putting fonts on web pages. While
+browsers can support True Type font files (.ttf suffix), WOFF files
+are smaller and are compatible with all modern browsers (e.g. Internet
+Explorer has had WOFF support since IE9 from 2011, Firefox has supported
+WOFF files since 2009, etc.).
+
 This is a mirror of http://people.mozilla.org/~jkew/woff/ so that
 the open-source reference code remains available and is not put
 behind a paywall.
