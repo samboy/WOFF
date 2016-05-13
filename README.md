@@ -6,6 +6,8 @@ are smaller and are compatible with all modern browsers (e.g. Internet
 Explorer has had WOFF support since IE9 from 2011, Firefox has supported
 WOFF files since 2009, etc.).
 
+## This repo
+
 This is a mirror of http://people.mozilla.org/~jkew/woff/ so that
 the open-source reference code remains available and is not put
 behind a paywall.
@@ -32,9 +34,21 @@ This creates a Chortle2014f.woff webfont file. Replace
 http://people.mozilla.org/~jkew/woff/ has Windows and MacOS binaries
 for people who do not wish to install a compiler.
 
-As an aside, here is the reference code for making WOFF2 files:
-https://github.com/google/woff2 Note that this code will _not_ install
-in CentOS6, but compiles and installs just fine in CentOS7:
+## Zopfli compression
+
+Zopfli compression can make WOFF files with a better compression
+ratio:
+
+https://github.com/bramstein/sfnt2woff-zopfli
+
+## WOFF2
+
+Here is the reference code for making WOFF2 files: 
+
+https://github.com/google/woff2 
+
+Note that this code will _not_ install in CentOS6, but compiles and
+installs just fine in CentOS7:
 
     git clone --recursive https://github.com/google/woff2.git
     cd woff2
