@@ -58,3 +58,13 @@ woff2 font generation is similar:
 
     woff2_compress Chortle2014f.ttf
 
+## EOT
+
+Keep in mind that EOT is an obsolete format; any browser which supports
+EOT but _does not_ support WOFF (Read: Internet Explorer 6-8) is a browser 
+which is unsupported.
+
+That in mind, the best EOT converter for Windows can be downloaded at
+http://eotfast.com ; there are a couple of cross platform EOT converters
+including the one at https://www.w3.org/Tools/eot-utils/
+
