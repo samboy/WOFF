@@ -31,8 +31,9 @@ file, then run sfnt2woff
 This creates a Chortle2014f.woff webfont file. Replace
 “Chortle2014f.ttf” with the name of the actual webfont to convert.
 
-http://people.mozilla.org/~jkew/woff/ had Windows and MacOS binaries
-for people who do not wish to install a compiler.
+[http://people.mozilla.org/~jkew/woff/](http://web.archive.org/web/20170630235618/https://people-mozilla.org/~jkew/woff/) (site down; archive link) 
+has Windows and MacOS binaries for people who do not wish to install a 
+compiler.
 
 ## Zopfli compression
 
@@ -65,7 +66,7 @@ EOT but _does not_ support WOFF (Read: Internet Explorer 6-8) is a browser
 which is unsupported.
 
 That in mind, the best EOT converter for Windows can be downloaded at
-[http://eotfast.com](http://web.archive.org/web/20180101204541/http://www.eotfast.com/) (site down; archive link) ; 
+[http://eotfast.com](http://web.archive.org/web/20180101204541/http://www.eotfast.com/) (site down; archive link has files) ; 
 there are a couple of cross platform EOT converters including the one at 
 https://www.w3.org/Tools/eot-utils/
 
