@@ -8,9 +8,9 @@ WOFF files since 2009, etc.).
 
 ## This repo
 
-This is a mirror of http://people.mozilla.org/~jkew/woff/ so that
-the open-source reference code remains available and is not put
-behind a paywall.
+This is a mirror of http://people.mozilla.org/~jkew/woff/ (which has since
+fallen off of the Internet) so that the open-source reference code remains 
+available and is not put behind a paywall.
 
 To compile and install, make sure you have the zlib development libraries
 installed (e.g. in CentOS6 `yum -y install zlib-devel` as root), then
@@ -31,7 +31,7 @@ file, then run sfnt2woff
 This creates a Chortle2014f.woff webfont file. Replace
 “Chortle2014f.ttf” with the name of the actual webfont to convert.
 
-http://people.mozilla.org/~jkew/woff/ has Windows and MacOS binaries
+http://people.mozilla.org/~jkew/woff/ had Windows and MacOS binaries
 for people who do not wish to install a compiler.
 
 ## Zopfli compression
@@ -65,6 +65,7 @@ EOT but _does not_ support WOFF (Read: Internet Explorer 6-8) is a browser
 which is unsupported.
 
 That in mind, the best EOT converter for Windows can be downloaded at
-http://eotfast.com ; there are a couple of cross platform EOT converters
-including the one at https://www.w3.org/Tools/eot-utils/
+[http://eotfast.com](http://web.archive.org/web/20180101204541/http://www.eotfast.com/) (site down; archive link) ; 
+there are a couple of cross platform EOT converters including the one at 
+https://www.w3.org/Tools/eot-utils/
 
